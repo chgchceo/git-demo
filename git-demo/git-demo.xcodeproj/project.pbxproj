@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BA0A8072BF8FAE6000A5272 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8BA0A8062BF8FAE6000A5272 /* .gitignore */; };
+		8BA0A80B2BF8FB3B000A5272 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA0A80A2BF8FB3B000A5272 /* HomeViewController.m */; };
+		8BA0A80E2BF8FB76000A5272 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA0A80D2BF8FB76000A5272 /* MineViewController.m */; };
 		8BFDC4812BF8E12300204C52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFDC4802BF8E12300204C52 /* AppDelegate.m */; };
 		8BFDC4842BF8E12300204C52 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFDC4832BF8E12300204C52 /* SceneDelegate.m */; };
 		8BFDC4872BF8E12300204C52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFDC4862BF8E12300204C52 /* ViewController.m */; };
@@ -38,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8BA0A8062BF8FAE6000A5272 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		8BA0A8092BF8FB3B000A5272 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		8BA0A80A2BF8FB3B000A5272 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		8BA0A80C2BF8FB76000A5272 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		8BA0A80D2BF8FB76000A5272 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		8BFDC47C2BF8E12300204C52 /* git-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "git-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFDC47F2BF8E12300204C52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8BFDC4802BF8E12300204C52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -83,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8BA0A8082BF8FB01000A5272 /* hao */ = {
+			isa = PBXGroup;
+			children = (
+				8BA0A8092BF8FB3B000A5272 /* HomeViewController.h */,
+				8BA0A80A2BF8FB3B000A5272 /* HomeViewController.m */,
+			);
+			path = hao;
+			sourceTree = SOURCE_ROOT;
+		};
 		8BFDC4732BF8E12200204C52 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +129,10 @@
 				8BFDC4832BF8E12300204C52 /* SceneDelegate.m */,
 				8BFDC4852BF8E12300204C52 /* ViewController.h */,
 				8BFDC4862BF8E12300204C52 /* ViewController.m */,
+				8BA0A80C2BF8FB76000A5272 /* MineViewController.h */,
+				8BA0A80D2BF8FB76000A5272 /* MineViewController.m */,
+				8BA0A8082BF8FB01000A5272 /* hao */,
+				8BA0A8062BF8FAE6000A5272 /* .gitignore */,
 				8BFDC4882BF8E12300204C52 /* Main.storyboard */,
 				8BFDC48E2BF8E12C00204C52 /* Assets.xcassets */,
 				8BFDC4902BF8E12C00204C52 /* LaunchScreen.storyboard */,
@@ -242,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BA0A8072BF8FAE6000A5272 /* .gitignore in Resources */,
 				8BFDC4922BF8E12C00204C52 /* LaunchScreen.storyboard in Resources */,
 				8BFDC48F2BF8E12C00204C52 /* Assets.xcassets in Resources */,
 				8BFDC48A2BF8E12300204C52 /* Main.storyboard in Resources */,
@@ -270,10 +292,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BFDC4952BF8E12C00204C52 /* main.m in Sources */,
+				8BA0A80E2BF8FB76000A5272 /* MineViewController.m in Sources */,
 				8BFDC4872BF8E12300204C52 /* ViewController.m in Sources */,
 				8BFDC48D2BF8E12300204C52 /* git_demo.xcdatamodeld in Sources */,
 				8BFDC4812BF8E12300204C52 /* AppDelegate.m in Sources */,
 				8BFDC4842BF8E12300204C52 /* SceneDelegate.m in Sources */,
+				8BA0A80B2BF8FB3B000A5272 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
