@@ -19,6 +19,8 @@
     self.view.backgroundColor = [UIColor lightGrayColor];
     
     self.title = @"shouye";
+    
+    //haoahah
 }
 
 
